@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registro de artistas </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./styles/styles_registro_artistas.css">
+</head>
+<body>
+    <h1 class="title has-text-centered has-text-white m-0"> Registro de artistas </h1>
+<section class="section">
+    <div class="container">
+        <form>
+            <div class="field">
+                <label class="label"> Nombre: </label>
+                <div class="control">
+                    <input class="input" type="text" placeholder=" Nombre del artista " required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label"> Tipo de presentación: </label>
+                <div class="control">
+                    <div class="select">
+                        <select required>
+                            <option value="" disabled selected> Seleccione el tipo de presentación </option>
+                            <option value="musica"> Música </option>
+                            <option value="danza"> Danza </option>
+                            <option value="teatro"> Teatro </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label"> Duración de la presentación: </label>
+                <div class="control">
+                    <input class="input" type="text" placeholder=" Duración de la presentación ( En minutos )" required max="100"> 
+                </div>
+            </div>
+
+            <br>
+            <div class="field">
+                <div class="control">
+                    <button class="button is-primary is-fullwidth">Registrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
