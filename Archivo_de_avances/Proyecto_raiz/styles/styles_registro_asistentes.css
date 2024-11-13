@@ -6,3 +6,41 @@
     background-size: auto;
     /* background-position: center; */
 }
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.payment-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.payment-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.payment-icons img {
+    width: auto;
+}
+
+.nequi-icon {
+    width: 90px;
+    height: 90px;
+}
+
+#datos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding: 50px;
+}
