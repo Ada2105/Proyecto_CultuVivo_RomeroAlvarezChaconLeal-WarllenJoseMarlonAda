@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registro de asistentes </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./styles/styles_registro_asistentes.css">
+</head>
+<body>
+    <h1 class="title has-text-centered has-text-white m-0"> Registro de asistentes </h1>
+<section class="section">
+    <div class="container">
+        <form>
+            <div class="field">
+                <label class="label"> Identificación: </label>
+                <div class="control">
+                    <input class="input" type="text" placeholder=" Número de Identificación" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label"> Nombre Completo: </label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Nombre completo" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label"> Correo Electrónico: </label>
+                <div class="control">
+                    <input class="input" type="email" placeholder=" Correo electrónico" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label"> Tipo de Boleto: </label>
+                <div class="control">
+                    <div class="select">
+                        <select required>
+                            <option value="" disabled selected> Seleccione el tipo de boleto </option>
+                            <option value="general"> General </option>
+                            <option value="vip"> Palco </option>
+                            <option value="premium"> Invitado especial </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label"> Estado en el evento: </label>
+                <div class="control">
+                    <div class="select">
+                        <select required>
+                            <option value="" disabled selected> Seleccione el estado </option>
+                            <option value="espera"> En Espera </option>
+                            <option value="confirmado"> Confirmado </option>
+                            <option value="cancelado"> Cancelado </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="field">
+                <div class="control">
+                    <button class="button is-primary is-fullwidth">Registrarse</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
