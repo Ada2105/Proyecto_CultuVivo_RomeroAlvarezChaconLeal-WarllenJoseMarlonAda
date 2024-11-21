@@ -9,14 +9,19 @@
     />
     <link
       rel="stylesheet"
-      href="/Archivo_de_avances/Proyecto_raiz/styles/inicio.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Archivo_de_avances/Proyecto_raiz/styles/artista.css"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <title>Incio</title>
+    <title>Artista</title>
   </head>
+
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <input type="checkbox" id="toggler" class="navbar-burger" />
@@ -44,113 +49,73 @@
             <span>Eventos</span>
           </a>
 
-          <a
-            href="#pie"
-            class="navbar-item"
-          >
+          <a href="#pie" class="navbar-item">
             <span class="icon">
               <i class="fas fa-envelope"></i>
             </span>
             <span>Contacto</span>
           </a>
-          <a
-          href="ayuda.html"
-          class="navbar-item"
-        >
-          <span class="icon">
-            <i class="fas fa-circle-question"></i>
-          </span>
-          <span>Ayuda</span>
-        </a>
+          <a href="" class="navbar-item">
+            <span class="icon">
+              <i class="fas fa-circle-question"></i>
+            </span>
+            <span>Ayuda</span>
+          </a>
         </div>
       </div>
     </nav>
-    <section class="section image-section">
-      <div class="overlay is-flex is-align-items-center">
-        <div class="content has-text-left p-3">
+
+    <section class="hero fade-in-up">
+      <div
+        class="hero-body is-flex is-align-items-center is-justify-content-center"
+      >
+        <div class="container has-text-centered">
           <p
-            class="has-text-weight-bold is-uppercase fade-in-up delay"
-            id="nombre"
+            class="title has-text-centered p-5 fade-in-up delay-1"
+            id="donaciones"
           >
-            Fundación CultuVivo.
+            BIENVENIDO A LA SECCION DE AYUDA
           </p>
-          <h1 class="title fade-in-up delay-1">Sistema de Gestión de eventos Culturales</h1>
-          <p class="has-text-white fade-in-up delay-2" id="sugerencia">
-            No pierdas la oportunidad de ser parte de esta gran causa.  <br />
-            Si ya estas registrado, puedes darle el boton de " Iniciar Sesión " <br>
-            Si aún no estas registrado y deseas hacerlo, puedes presionar en el boton " Registrarse "
+          <p
+            class="subtitle has-text-centered p-5 fade-in-up delay-1"
+            id="subtitle"
+          >
+            A continuacion revisa tu descripcion de usuario
           </p>
-          <br /><br />
-          <div class="has-text-centered fade-in-up delay-3">
-            <div class="has-text-centered fade-in-up delay-3">
-              <div class="columns is-multiline is-centered is-variable">
-                <div class="column" id="bancolombia">
-                  <div class="card has-background-light p-2">
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-content">
-                          <p class="title has-text-black has-text-centered is-size-3">
-                            USUARIO
-                          </p>
-                        </div>
-                      </div>
-                      <div class="content carta-mala">
-                        <a href="/Archivo_de_avances/Proyecto_raiz/formulario_inicio_usuario.html" class="button is-large" id="boton1">
-                          <span class="icon"><i class="fas fa-wallet"></i></span>
-                          <span>Iniciar Sesión</span>
-                        </a>
-                        <a href="/Archivo_de_avances/Proyecto_raiz/registro_asistentes.html" class="button is-large mt-4" id="boton1">
-                          <span class="icon"><i class="fas fa-wallet"></i></span>
-                          <span>Registrarse</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="column" id="bancolombia">
-                  <div class="card has-background-light p-6">
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-content">
-                          <p class="title has-text-black has-text-centered is-size-3">
-                            ARTISTA
-                          </p>
-                        </div>
-                      </div>
-                      <div class="content carta-mala">
-                        <a href="/Archivo_de_avances/Proyecto_raiz/formulario_inicio_artista.html" class="button is-large" id="boton1">
-                          <span class="icon"><i class="fas fa-wallet"></i></span>
-                          <span>Iniciar Sesión</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="column" id="bancolombia">
-                  <div class="card has-background-light p-6">
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-content">
-                          <p class="title has-text-black has-text-centered is-size-3">
-                            ADMINISTRADOR
-                          </p>
-                        </div>
-                      </div>
-                      <div class="content carta-mala">
-                        <a href="/Archivo_de_avances/Proyecto_raiz/formulario_inicio_admin.html" class="button is-large" id="boton1">
-                          <span class="icon"><i class="fas fa-wallet"></i></span>
-                          <span>Iniciar Sesión</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
         </div>
       </div>
-
     </section>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-5 has-background-dark m-6 p-6" id="info">
+        <h1 class="title pb-5">Usuario</h1>
+        <p
+          class="subtitle p-3 has-text-centered is-uppercase has-text-weight-bold"
+        >
+          NO ASIGNADO
+        </p>
+      </div>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-5 has-background-dark m-6 p-6" id="info">
+        <h1 class="title pb-5">Administrador</h1>
+        <p
+          class="subtitle p-3 has-text-centered is-uppercase has-text-weight-bold"
+        >
+          NO ASIGNADO
+        </p>
+      </div>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-5 has-background-dark m-6 p-6" id="info">
+        <h1 class="title pb-5">Artista</h1>
+        <p
+          class="subtitle p-3 has-text-centered is-uppercase has-text-weight-bold"
+        >
+          NO ASIGNADO
+        </p>
+      </div>
+    </div>
+
     <footer class="footer has-background-dark has-text-white-ter" id="pie">
       <div class="content has-text-centered">
         <div class="columns">

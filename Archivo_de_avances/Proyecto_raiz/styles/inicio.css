@@ -66,6 +66,13 @@ body, html{
     opacity: 0.7;
 }
 
+.carta-mala{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 #logo{
     width: 8%;
     right: 2%;
