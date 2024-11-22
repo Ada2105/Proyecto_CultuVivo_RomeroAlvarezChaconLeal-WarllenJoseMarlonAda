@@ -8,7 +8,7 @@ body, html{
     background-image: url('/Archivo_de_avances/Banco_de_imagenes/images.jpg'); /* Ruta relativa a la imagen local */
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Ajusta la altura según tus necesidades */
+    height: 93vh; /* Ajusta la altura según tus necesidades */
 }
 @keyframes backgroundSlideshow {
     0% {
