@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 nav #toggler {
@@ -11,6 +12,7 @@ nav #toggler {
 }
 
 nav .navbar-burger {
+    
     font-size: 3rem;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
