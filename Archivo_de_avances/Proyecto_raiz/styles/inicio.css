@@ -61,6 +61,13 @@ body, html{
 }
 
 
+.carta-mala{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 #logo{
     width: 8%;
     right: 2%;
