@@ -219,3 +219,74 @@ img {
     align-items: center;
     padding: 50px;
 }
+
+.galeria {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgb(0, 0, 0) 38%, rgb(0, 0, 0) 48%);
+}
+
+.mitad-superior {
+    padding-top: 8%;
+    height: 60%;
+    background-color: rgb(0, 0, 0);
+    margin: 2px;
+    margin-bottom: 10%;
+    border-top: 2px solid black;
+}
+
+.fila {
+    display: flex;
+    gap: 10px;
+    width: 130%;
+    animation: desplazamiento 10s linear infinite;
+}
+
+.fila1 {
+    display: flex;
+    gap: 10px;
+    width: 130%;
+    animation: desplazamiento 20s linear infinite;
+    margin-top: -14%;
+}
+
+.foto {
+    width: 90%;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 6%;
+}
+
+.fotos {
+    width: 90%;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 6%;
+    object-fit: cover;
+}
+
+.linea_separacion {
+    top: -0.5%;
+    position: relative;
+    height: 3px;
+    background-color: black;
+    width: 100%;
+}
+
+.mitad-inferior {
+    height: 40%;
+    background-position: center;
+}
+
+@keyframes desplazamiento {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    }
